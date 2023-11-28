@@ -2,7 +2,7 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: black;
 }
 
 .container {
@@ -16,11 +16,14 @@ body {
 
 h1 {
     color: #333;
+    justify-content: center;
+    align-items: center;
 }
 
 p {
     color: #555;
     line-height: 1.5;
+    text-align: justify;
 }
 
 ul {
@@ -39,4 +42,39 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+#twitter {
+    height: 50px;
+    width: 75px;
+    background-color:cyan;
+    text-align: center;
+}
+
+#facebook {
+    height: 50px;
+    width: 75px;
+    background-color: #007BFF;
+}
+
+#linkedin {
+    height: 50px;
+    width: 75px;
+    background-color: green;
+}
+
+#about {
+    height: 50px;
+    width: 100px;
+    font-size: 15px;
+}
+
+#contact {
+    height: 50px;
+    width: 75px;
+    font-size: 15px;
+}
+
+#explorer {
+    font-size: 20px;
 }
